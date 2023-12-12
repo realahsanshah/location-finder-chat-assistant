@@ -40,7 +40,7 @@ with left_col:
             st.write(message)
     
 
-with right_col.container(height=100):
+with right_col:
     fig = go.Figure(go.Scattermapbox())
     fig.update_layout(
         mapbox=dict(
